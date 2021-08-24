@@ -201,14 +201,15 @@ main {
     justify-content: center; }
     main .slick-dots li {
       list-style-type: none;
-      padding: 10px;
-      font-size: 2px; }
+      padding: 10px; }
       main .slick-dots li button {
         display: block;
         color: #ffffff;
         background-color: #ffffff;
         border-radius: 100%;
-        border: 1px solid #c8c8c8; }
+        border: 1px solid #c8c8c8;
+        width: 2px;
+        height: 2px; }
     main .slick-dots li.slick-active button {
       background-color: #c8c8c8;
       color: #c8c8c8; }
@@ -387,7 +388,8 @@ div#socialWrapper {
 
   header {
     display: grid;
-    grid-template-columns: 1fr 5fr 1fr; }
+    grid-template-columns: 1fr 5fr 1fr;
+    margin-top: 22px; }
     header div.phone {
       font-size: 16px;
       color: #FFD700;

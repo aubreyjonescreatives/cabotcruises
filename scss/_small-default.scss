@@ -214,8 +214,8 @@ main {
     li {
       list-style-type: none;
       padding: 10px;   
-      font-size: 2px; 
-      
+  
+
     
       
       button {
@@ -223,7 +223,9 @@ main {
         color: $fontColor; 
         background-color: $fontColor;
         border-radius: 100%; 
-        border: 1px solid #c8c8c8; 
+        border: 1px solid #c8c8c8;
+        width: 2px; 
+        height: 2px;  
       }
     }
     

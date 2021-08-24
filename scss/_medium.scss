@@ -7,7 +7,9 @@ header, nav, main, footer, .copyright, .footerSocialIcons {min-width: 651px; max
 header {
     display: grid; 
     grid-template-columns: 1fr 5fr 1fr; 
-    
+    margin-top: 22px;     
+
+
     div.phone { 
     font-size: 16px; 
     color: $secondaryColor; 
