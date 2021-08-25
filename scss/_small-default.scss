@@ -10,7 +10,7 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%}
 
  /* -----------------------BODY------------------------------- */ 
 
-header, nav, main, footer {font-family: "lato"; margin: 0 auto;}
+header, nav, main, footer {font-family: "lato"; margin: auto; }
 
 
 
@@ -19,12 +19,14 @@ header, nav, main, footer {font-family: "lato"; margin: 0 auto;}
 header {
     display: grid; 
     grid-template-columns: .4fr 4.4fr 1fr;  
-   // margin-top: 50px; 
+    margin-top: 22px; 
     background-color: $primaryColor; 
      
    .figure {
      clear: both; 
-     margin: 20px; 
+   
+    
+     
 
      
     
@@ -446,23 +448,28 @@ h2 a:link, a:visited {
 
 div#copyrightWrapper {
   background-color: $secondaryColor;
- 
+  height: 100px; 
+  width: 100%; 
+  text-align: center; 
+  margin-right: auto; 
+  margin-left: auto; 
 }
 
 
 .copyright {
  clear: both; 
  width: 100%; 
- background-color: $secondaryColor; 
+ //background-color: $secondaryColor; 
  padding: 10px; 
  p {
  padding: 10px; 
  text-align: center;
  color: $fontColor; 
-
+font-size: 24px; 
  
  a:link, a:visited {
    color: $fontColor; 
+   text-decoration: none; 
  }
  } 
 

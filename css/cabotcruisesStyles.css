@@ -90,15 +90,15 @@ html {
 /* -----------------------BODY------------------------------- */
 header, nav, main, footer {
   font-family: "lato";
-  margin: 0 auto; }
+  margin: auto; }
 
 header {
   display: grid;
   grid-template-columns: .4fr 4.4fr 1fr;
+  margin-top: 22px;
   background-color: #000080; }
   header .figure {
-    clear: both;
-    margin: 20px; }
+    clear: both; }
   header .theTitles {
     align-self: end;
     color: #ffffff;
@@ -343,19 +343,25 @@ div#footerWrapper {
   button a:link, a:visited {
     color: #000080; } }
 div#copyrightWrapper {
-  background-color: #FFD700; }
+  background-color: #FFD700;
+  height: 100px;
+  width: 100%;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto; }
 
 .copyright {
   clear: both;
   width: 100%;
-  background-color: #FFD700;
   padding: 10px; }
   .copyright p {
     padding: 10px;
     text-align: center;
-    color: #ffffff; }
+    color: #ffffff;
+    font-size: 24px; }
     .copyright p a:link, .copyright p a:visited {
-      color: #ffffff; }
+      color: #ffffff;
+      text-decoration: none; }
 
 div#socialWrapper {
   background-color: #FFD700;
@@ -384,7 +390,8 @@ div#socialWrapper {
 @media only screen and (min-width: 600px) {
   header, nav, main, footer, .copyright, .footerSocialIcons {
     min-width: 651px;
-    max-width: 1024px; }
+    max-width: 1024px;
+    margin: 0 auto; }
 
   header {
     display: grid;
@@ -502,7 +509,8 @@ div#socialWrapper {
 @media only screen and (min-width: 1024px) {
   header, nav, main, .container-cards, .copyright, .footerSocialIcons {
     min-width: 1024px;
-    max-width: 1200px; }
+    max-width: 1200px;
+    margin: 0 auto; }
 
   body {
     padding-top: 0px; }
@@ -520,17 +528,14 @@ div#socialWrapper {
 
   #wrapperNav {
     background-color: #FFD700;
-    height: 50px;
-    margin: auto; }
+    height: 50px; }
 
   /* ------------------------NAV----------------------------- */
   nav button.primaryBtn {
     display: none; }
 
   nav {
-    margin: 0 auto;
-    margin-top: 102px;
-    background-color: #FFD700; }
+    position: relative; }
     nav ul.hide {
       display: block; }
     nav ul li {

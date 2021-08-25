@@ -1,5 +1,5 @@
 
- header, nav, main, .container-cards, .copyright, .footerSocialIcons { min-width: 1024px; max-width: 1200px;}
+ header, nav, main, .container-cards, .copyright, .footerSocialIcons { min-width: 1024px; max-width: 1200px; margin: 0 auto;}
 
 
 
@@ -32,7 +32,7 @@ h2 {
 #wrapperNav {
     background-color: $secondaryColor; 
     height: 50px; 
-    margin: auto; 
+   
 }
 
 /* ------------------------NAV----------------------------- */
@@ -40,14 +40,16 @@ h2 {
 
     nav button.primaryBtn {display: none;}
     
-    nav {
-    margin: 0 auto; 
-    margin-top: 102px; 
-    background-color: $secondaryColor; 
+    nav { 
+    position: relative; 
+   // margin-top: 102px; 
+     
+   // background-color: $secondaryColor; 
     
     ul.hide {display: block;}
     
     ul {
+     
     
     li { 
       float: left; 
@@ -276,5 +278,7 @@ h2 a:link, a:visited {
 
 }
 
-    
+
+
+
     

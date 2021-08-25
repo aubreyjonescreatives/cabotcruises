@@ -6,13 +6,13 @@
 
 
 
-
+/*
 fetch ('./data/cabotcruises.json') 
 .then((mydata) => mydata.json())
 .then((mydata) => {
   console.log(mydata); 
 }); 
-
+*/
 
 
 function toggleMenu() {
